@@ -1,0 +1,248 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+@*@model BbmUnderlakare.Views.SearchFilter.Index*@
+
+<br />
+<h1>Sök AT-ort efter kriterier</h1>
+
+<h2>AT-tjänst</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <p><strong>Ingångslön</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span>minst</span>
+                            <input type="text" tabindex="" name="" value="" />
+                            <span>kr</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Ensam på nattjour</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="true" />
+                            <lable>Ja</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="false" />
+                            <lable>Nej</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="none" />
+                            <lable>Ointressant</lable>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Betald AT-stämma</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="true" />
+                            <lable>Ja</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="false" />
+                            <lable>Nej</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="none" />
+                            <lable>Ointressant</lable>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Ledarskapsutbildning</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="true" />
+                            <lable>Ja</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="false" />
+                            <lable>Nej</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="none" />
+                            <lable>Ointressant</lable>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Forskarblock</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="true" />
+                            <lable>Ja</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="false" />
+                            <lable>Nej</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="none" />
+                            <lable>Ointressant</lable>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Personalbostad finns</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="true" />
+                            <lable>Ja</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="false" />
+                            <lable>Nej</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="none" />
+                            <lable>Ointressant</lable>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Hjälp att hitta bostad</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="true" />
+                            <lable>Ja</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="false" />
+                            <lable>Nej</lable>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="none" />
+                            <lable>Ointressant</lable>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-3">
+
+            <h2>Sjukhus</h2>
+
+            <p><strong>Upptagningsområde</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span>minst</span>
+                            <input type="text" tabindex="" name="" value="" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span>max</span>
+                            <input type="text" tabindex="" name="" value="" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Möjlighet till vikariat</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="true" />
+                            <label>Ja</label>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="false" />
+                            <label>Nej</label>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="none" />
+                            <label>Ointressant</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>ST-tjänster erbjuds</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="true" />
+                            <label>Ja</label>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="false" />
+                            <label>Nej</label>
+                        </td>
+                        <td>
+                            <input type="radio" tabindex="" name="" value="none" />
+                            <label>Ointressant</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>ST-lön</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span>minst</span>
+                            <input type="text" tabindex="" name="" value="" />
+                            <span>kr</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-3">
+            <h2>Ort</h2>
+
+            <p><strong>Län</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span>minst</span>
+                            <input multiple="" tabindex="" name="" value="" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Landsdel</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span>minst</span>
+                            <input multiple="" tabindex="" name="" value="" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br />
+        <div class="col-sm-3">
+            <input type="submit" name="" value="Rensa" id="" />
+            <input type="submit" name="" value="Sök" onclick="" id="" />
+        </div>
+    </div>
+</div>
